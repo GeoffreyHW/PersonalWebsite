@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "author": "Geoffrey Wong",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.7",
+    "express": "^4.15.4",
     "mailgun-js": "^0.13.1"
   }
 }
