@@ -12,5 +12,7 @@
     "ejs": "^2.5.7",
     "mailgun-js": "^0.13.1"
   },
-  "start": "node index.js"
+  "scripts": {
+    "start": "node your-script.js"
+	}
 }
