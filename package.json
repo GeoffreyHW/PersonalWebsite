@@ -13,6 +13,6 @@
     "mailgun-js": "^0.13.1"
   },
   "scripts": {
-    "start": "node your-script.js"
+    "start": "index.js"
 	}
 }
