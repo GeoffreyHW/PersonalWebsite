@@ -5,8 +5,7 @@ var DOMAIN = "sandboxb15c1ff447b849dea12e28ff4dcda26e.mailgun.org";
 // dependencies
 var express = require('express');
 var app = express();
-var bodyParser = require('body-parser');
-app.use(bodyParser.json());
+
 app.set('view engine', 'html');
 
 // mailgun initialization
