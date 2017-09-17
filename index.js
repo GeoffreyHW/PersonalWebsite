@@ -74,5 +74,5 @@ app.post('/sendemail', function(req, res){
 });
 
 // =============== SERVER INITIALIZATION ============
-
-app.listen(8080, '127.0.0.1')
+var port_number = (process.env.PORT || 3000);
+app.listen(port_number)
