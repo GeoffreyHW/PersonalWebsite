@@ -18,7 +18,7 @@ app.use(express.static(__dirname + '/views'));
 
 // ================= ROUTES ======================
 
-app.get('/home', function(req, res) {
+app.get('/', function(req, res) {
     res.sendFile(__dirname + '/views/index.html');
 });
 
