@@ -1,0 +1,246 @@
+header {
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #222;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header nav{
+    margin-right: -15%;
+    float: right;
+}
+
+header li{
+    float: left;
+    display: inline;
+}
+
+header li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1.5px solid #222;
+}
+
+header li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: white;    
+    border: 1.5px solid white;
+}
+
+header #homeButton{
+    float:left; 
+    font-size: 125%;
+    margin-left: -10%;
+}
+
+header #homeButton a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}    
+
+header #homeButton a:hover {
+    background-color: #111;
+}
+
+#indexBlurb{
+    width:100%;
+    height:100%;
+    margin-top: 20%;
+    text-align: center;
+}
+
+#indexBlurb h1{
+    animation-duration: 4s;
+}
+
+#indexBlurb ul{
+    width: 80%;
+    margin:auto;
+    margin-top: 8%;
+    margin-left: 21%;
+    list-style-type: none;    
+}
+
+#indexBlurb li{
+    min-width: 105px;
+    float:left;
+    display:inline;
+    margin: 2%;
+}
+
+#indexBlurb li a {
+    display: block;
+    text-align: center;
+    color:black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #222;
+}
+
+#indexBlurb li a:hover {
+    background-color: #333;
+    text-decoration: none;
+    color: white;    
+    border: 1px solid white;
+}
+
+#bio #face{
+    margin-top: 10%;
+    margin-left: 12%;
+    zoom:11%;
+}
+#bio #info{
+    margin-top: 10%;
+    margin-right: 15%;
+    padding: 18px;
+    max-width: 30%;
+    font-size: 15px;
+    float: right;
+    background-color: #222;
+    color: white;
+}
+
+#resume #heading{
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: black solid 1.5px;
+}
+
+#resume #education #college{
+    float:left;
+}
+
+#resume #education #gradDate{
+    float:right;
+}
+
+#resume #education #major{
+    clear: both;
+    float:left;
+    display: block;
+    position:relative;
+}
+
+#resume #experience{
+    clear:both;
+}
+
+#resume ul{
+    margin-left:-2%;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    background-color:white;
+    color: black;
+    padding: 12px 20px;
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #222;
+    color: white;
+}
+
+#contact{
+    margin-top:5%;
+}
+
+#social{
+    width:50%;
+    margin-top: 20px;
+    margin-bottom:10%;
+    margin-left:25%;
+}
+
+#social #github{
+    text-align:center;
+    float: left;
+}
+
+#social #linkedin{
+    text-align:center;    
+    float: right; 
+}
+
+#social a{
+    color:black;
+}
+
+#projects{
+    margin-top: 3%;
+}
+
+#hackaz{
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+#projects #landing{
+    float: left;
+    zoom:27%;
+}
+
+#projects #map{
+    float: right;
+    zoom:22%;
+}
+
+#takeoff{
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+#takeoffinfo{
+    clear:both;
+}
+
+#hackaz a{
+    font-size:20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#paypal #users{
+    zoom:22%;
+    margin-left:10%;
+}
+
+#paypal #signin{
+    zoom:22%;
+    margin-left:10%;
+}
+
+#paypal #register{
+    zoom:22%;
+    margin-left:10%;
+}
+
+#paypalinfo{
+    margin-top: 5%;
+}
+
