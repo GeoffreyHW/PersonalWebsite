@@ -11,8 +11,5 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "mailgun-js": "^0.13.1"
-  },
-  "engines" : {
-    "node": "6.10.3"
   }
 }
