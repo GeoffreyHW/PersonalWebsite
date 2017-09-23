@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">            
         <title>Geoffrey Wong</title>
+        <link rel="shortcut icon" href="images/favicon.ico" />
 
         <link rel="stylesheet" href="styles.css">        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -11,7 +12,7 @@
         <script src="https://use.fontawesome.com/276e132718.js"></script>
     </head>
     <body>
-        <header>
+        <header id="expHeader">
             <div class="container">
                 <div id="homeButton">
                     <a href="index.html"><b>Geoffrey</b></a>
@@ -19,7 +20,7 @@
                 <nav>
                     <ul>
                         <li><a href="bio.html">About</a></li>
-                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="resume.pdf" target="_blank">Resume</a></li>
                         <li><a class="active" href="experience.html">Experience</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
@@ -40,7 +41,7 @@
                      of activities they are interested in before their schedules are generated. Once the user is ready, the platform will 
                      optimize the vacation schedule in a way that minimizes travel time and maximizes the ratings of attractions.</p> 
                      <h4><b>Check it out here!</b></h4>
-                     <p id="takeoff" class="animated bounce"><a href="http://hack-az.herokuapp.com/" target="_blank">Takeoff</a></p>
+                     <p id="takeoff"><a href="http://hack-az.herokuapp.com/" target="_blank">Takeoff</a></p>
                 </div>
                 <div id="paypal">
                     <h4>Hope for Hunger - PayPal Opportunity Hack 2016</h4>
@@ -55,7 +56,24 @@
                         Excel spreadsheet.
                     </p>
                 </div>
+                <div id="research">
+                    <h3 id="researchBanner"><b>Research</b></h3>
+                    <div class="container">
+                        <img id="setup" src="images/setup.jpg">
+                        <img id="monsoon" src="images/monsoon.png">
+                    </div>               
+                    <p id="researchInfo">To study the energy efficiency of augmented reality applications, I needed a reliable method to measure
+                        desired characteristics. In order to characterize battery consumption, I hacked into the back of a Nvidia Shield tablet,
+                        allowing power to come from either the Monsoon Power Monitor or the battery itself. The Power Monitor comes with software
+                        that allows me to track average power usage over the lifetime of an application. Just altering the tablet's performance 
+                        configurations has already shown varying results. For future work, I will continue to identify optimal settings and configurations
+                        at which augmented reality applications perform.
+                    </p>
+                </div>
             </div>
         </div>
+        <footer>
+            <a id="to-top" href="#expHeader" class="btn btn-dark btn-lg"><i id="upBtn" class="fa fa-chevron-up fa-fw fa-2x"></i></a>
+        </footer>
     </body>
 </html>
