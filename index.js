@@ -7,6 +7,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
+
 app.set('view engine', 'html');
 
 // mailgun initialization
@@ -74,5 +75,6 @@ app.post('/sendemail', function(req, res){
 });
 
 // =============== SERVER INITIALIZATION ============
+
 var port = (process.env.PORT || 8080);
 app.listen(port);
