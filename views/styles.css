@@ -10,7 +10,6 @@ header ul{
 }
 
 header nav{
-    margin-right: -15%;
     float: right;
 }
 
@@ -25,7 +24,7 @@ header li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /*border: 1.5px solid white;*/
+    border: 2px solid #75313e;
 }
 
 header li a:hover {
@@ -43,7 +42,6 @@ header li a:visited, header li a:link, header li a:active:visited {
 header #homeButton{
     float:left; 
     font-size: 125%;
-    margin-left: -10%;
 }
 
 header #homeButton a{
