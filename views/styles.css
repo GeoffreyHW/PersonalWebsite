@@ -58,6 +58,12 @@ header #homeButton a:hover {
     border: 2px solid #d7cec7;
 }
 
+#indexUL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #indexBlurb{
     width:100%;
     height:100%;

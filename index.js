@@ -15,7 +15,9 @@ var Mailgun = require('mailgun-js');
 var mailgun = new Mailgun({apiKey: API_KEY, domain: DOMAIN});
 
 app.set("view options", {layout: false});
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/views', {
+    extensions: ['html']
+  }));
 
 // ================= ROUTES ======================
 
